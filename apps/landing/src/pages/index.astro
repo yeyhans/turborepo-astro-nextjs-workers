@@ -1,0 +1,20 @@
+---
+import { DataExample } from "@workspace/ui/components/DataExample";
+import '@workspace/ui/styles/globals.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Landing Page</title>
+	</head>
+	<body class="bg-background text-foreground min-h-screen pt-20 flex flex-col items-center justify-center">
+		<div class="text-center mb-10 px-4">
+			<h1 class="text-5xl font-extrabold tracking-tight">Soma Bioecological</h1>
+			<p class="mt-4 text-lg text-muted-foreground">This landing page integrates with Cloudflare D1 & R2 via the shared Workspace API.</p>
+		</div>
+		<DataExample client:load />
+	</body>
+</html>

@@ -1,0 +1,13 @@
+.env
+node_modules
+.turbo
+.wrangler
+.astro
+.next
+.vercel
+.npm
+.pnpm-store
+.yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
